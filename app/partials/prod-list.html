@@ -1,0 +1,6 @@
+<h2>Sock Prices in Bitcoin (BTC)</h2>
+<ul id="prod-list">
+  <li ng-cloak ng:repeat="item in items">
+    ASIN: {{item.ASIN}}  Price: {{item.OfferSummary.LowestNewPrice.Amount}}  BTC: {{(item.OfferSummary.LowestNewPrice.Amount /100) / ticker.USD.last }}
+  </li>
+</ul>

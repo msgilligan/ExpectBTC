@@ -1,0 +1,10 @@
+task copyDist(type: Copy) {
+    def targetDirName = "dist"
+    description = "Copies Files to dist directory"
+
+    from "${rootDir}/app"
+    into targetDirName
+}
+
+task deployS3 {
+}
