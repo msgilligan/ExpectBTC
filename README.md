@@ -17,4 +17,5 @@ gradle copyDist
 
 To Deploy to S3
 ===============
-gradle deployS3
+gradle deployS3 (To Be Done)
+
