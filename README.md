@@ -12,10 +12,10 @@ To run locally:
 
 To Create dist directory
 ================
-gradle copyDist
+./gradlew copyDist
 
 
 To Deploy to S3
 ===============
-gradle deployS3 (To Be Done)
+./gradlew deployS3 (To Be Done)
 
